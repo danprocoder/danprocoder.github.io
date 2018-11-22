@@ -1,0 +1,128 @@
+body {
+	font-family: Arial;
+	line-height: 100%;
+}
+
+body, input, textarea, h2, h4, p, div, ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, li {
+	list-style: none;
+}
+
+input,
+textarea {
+	font-family: inherit;
+}
+
+/* Navbar */
+
+#navbar {
+	padding: 20px 0;
+}
+
+#navbar .sitename {
+	display: inline-block;
+	color: yellow;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+#navbar .sitename {
+	float: left;
+}
+
+.header {
+	font-weight: 700;
+	font-size: 24px;
+}
+
+#navbar .navbar-menu {
+	float: right;
+}
+
+#navbar .navbar-menu li,
+#navbar .navbar-menu a {
+	display: inline-block;
+}
+
+#navbar .navbar-menu li {
+	margin-left: 10px;
+}
+
+#navbar .navbar-menu li a {
+	color: #fff;
+}
+
+.red-bg {
+	background: red;
+}
+
+.container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width:1024px) {
+	.container {
+		width: 900px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.container {
+		width: 100%;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+/* Floats */
+.f-left {
+	float: left;
+}
+
+.f-right {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* Text alignments */
+.t-center {
+	text-align: center;
+}
+
+/* Grid container */
+.grid-container {
+
+}
+
+.grid-container .grid-50 {
+	float: left;
+	width: 50%;
+}
+
+
+/* Dropdowns */
+.dropdown {
+	position: relative;
+}
+
+.dropdown-menu {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	display: none;
+	z-index: 999999999999999;
+}

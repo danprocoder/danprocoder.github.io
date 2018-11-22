@@ -8,7 +8,7 @@ body {
 	line-height: 100%;
 }
 
-body, input, textarea, h2, h4, p, div, ul, li {
+body, input, textarea, h2, h4, p, div, ul, li, p {
 	padding: 0;
 	margin: 0;
 }
@@ -141,11 +141,16 @@ textarea {
 .button {
 	display: inline-block;
 	padding: 12px 17px;
-	background: red;
+	background: #ff385d;
 	border: none;
 	outline: none;
 	color: #fff;
 	font-size: 14px;
+	transition: background 0.3s;
+}
+
+.button:hover {
+	background: #ca2745;
 }
 
 form label {

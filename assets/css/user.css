@@ -21,6 +21,7 @@ table td {
 }
 
 .record-status {
+	display: inline-block;
 	border-width: 1px;
 	border-radius: 30px;
 	border-style: solid;
@@ -46,6 +47,14 @@ table td {
 .record-status.rejected {
 	border-color: red;
 	color: red;
+}
+
+.record-status .dropdown-menu {
+	background: #ffffff;
+	border: 1px solid #dfdfdf;
+	border-radius: 3px;
+	top: 103%;
+	width: 180px;
 }
 
 table .action {
@@ -104,8 +113,10 @@ table .action.blue {
 }
 
 .tab li.active a {
-	border-bottom: 2px solid blue;
-	color: blue;
+	background: #429ed4;
+    color: #fff;
+    padding: 3px 9px;
+    border-radius: 30px;
 }
 
 .tab li {

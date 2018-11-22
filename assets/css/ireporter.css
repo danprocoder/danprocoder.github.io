@@ -1,5 +1,10 @@
+@font-face {
+	src: url('../fonts/karla.ttf');
+	font-family: 'karla';
+}
+
 body {
-	font-family: Arial;
+	font-family: 'karla';
 	line-height: 100%;
 }
 
@@ -24,7 +29,7 @@ textarea {
 /* Navbar */
 
 #navbar {
-	padding: 20px 0;
+	padding: 10px 0;
 }
 
 #navbar .sitename {
@@ -42,6 +47,7 @@ textarea {
 .header {
 	font-weight: 700;
 	font-size: 24px;
+	color: #555;
 }
 
 #navbar .navbar-menu {
@@ -62,7 +68,7 @@ textarea {
 }
 
 .red-bg {
-	background: red;
+	background: #ef3b3b;
 }
 
 .container {
@@ -105,12 +111,16 @@ textarea {
 
 /* Grid container */
 .grid-container {
-
+	margin-left: -15px;
+	margin-right: -15px;
 }
 
 .grid-container .grid-50 {
 	float: left;
 	width: 50%;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
 }
 
 
@@ -125,4 +135,40 @@ textarea {
 	top: 100%;
 	display: none;
 	z-index: 999999999999999;
+}
+
+/* button */
+.button {
+	display: inline-block;
+	padding: 12px 17px;
+	background: red;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+}
+
+form label {
+	font-weight: 700;
+	font-size: 13px;
+	color: #444;
+	margin-bottom: 3px;
+	display: inline-block;
+}
+
+.text-field {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 13px;
+	border: 1px solid #dcdcdc;
+	outline: none;
+}
+
+.text-field:focus {
+	border-color: #bbbbbb;
+}
+
+form .field-section {
+	margin-top: 20px;
 }

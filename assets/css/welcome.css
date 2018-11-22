@@ -13,7 +13,8 @@
 
 .welcome-text-container .info-text {
 	margin-top: 26px;
-	line-height: 130%;
+	line-height: 140%;
+	font-size: 17px;
 }
 
 .section.features {

@@ -115,12 +115,20 @@ textarea {
 	margin-right: -15px;
 }
 
-.grid-container .grid-50 {
+.grid-container .grid-50,
+.grid-container .grid-10 {
 	float: left;
-	width: 50%;
 	padding-left: 15px;
 	padding-right: 15px;
 	box-sizing: border-box;
+}
+
+.grid-container .grid-50 {
+	width: 50%;
+}
+
+.grid-container .grid-10 {
+	width: 10%;
 }
 
 
@@ -149,6 +157,11 @@ textarea {
 	transition: background 0.3s;
 }
 
+.button.small {
+    padding: 8px 13px;
+    font-size: 13px;
+}
+
 .button:hover {
 	background: #ca2745;
 }
@@ -159,6 +172,11 @@ form label {
 	color: #444;
 	margin-bottom: 3px;
 	display: inline-block;
+}
+
+.required {
+	font-weight: normal;
+	color: #f00;
 }
 
 .text-field {
@@ -176,4 +194,16 @@ form label {
 
 form .field-section {
 	margin-top: 20px;
+}
+
+form .form-section {
+	margin-top: 20px;
+}
+
+form .form-section .form-section-header {
+	color: #777;
+}
+
+form .form-section .form-section-body {
+	margin-top: 10px;
 }
